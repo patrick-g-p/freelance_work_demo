@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Patrick G P> -- <Freelance Web Developer>
+
+# THANKS
+
+    <AJ Wolbrum. The best client I'll ever have the pleasure of working for.>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JavaScript
+    SASS, Babel

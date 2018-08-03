@@ -1,0 +1,68 @@
+/* Email List Sign Up Form */
+.email-signup {
+  background-color: $colorLightBlue;
+  color: $colorWhite;
+
+  @media screen and (max-width: 62.5em) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  &__form-items {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-evenly;
+    font-size: $defaultFontSize;
+
+    @media screen and (max-width: 48em) {
+      padding: 2.5rem 0;
+      flex-direction: column;
+    }
+
+    & input {
+      font-family: inherit;
+    }
+
+    label {
+      text-align: center;
+    }
+  }
+
+  &__email-input {
+    border: none;
+    border-bottom: 3px solid transparent;
+    display: block;
+    padding: 1rem 1.5rem;
+    width: 50rem;
+    transition: all 0.3s;
+    margin: 0 1rem;
+
+    @media screen and (max-width: 48em) {
+      width: 75%;
+      margin: 2.5rem 0;
+    }
+
+    &:required {
+      box-shadow: none;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba($colorBlack, 0.1);
+      border-bottom: 3px solid $colorGreen;
+    }
+
+    &:focus:invalid {
+      border-bottom: 3px solid $colorRed;
+    }
+
+    &::-webkit-input-placeholder {
+      color: $colorDarkGray;
+    }
+    &::-moz-input-placeholder {
+      color: $colorDarkGray;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.button {
+  &,
+  &:link,
+  &:visited {
+    border: none;
+    color: $colorWhite;
+    cursor: pointer;
+    display: inline-block;
+    font-size: $defaultFontSize;
+    padding: 1rem 2rem;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    box-shadow: 0 1rem 2rem rgba($colorBlack, 0.2);
+    transform: translateY(-0.3rem);
+  }
+
+  &:active,
+  &:focus {
+    box-shadow: 0 0.5rem 1rem rgba($colorBlack, 0.2);
+    outline: none;
+    transform: translateY(-0.1rem);
+  }
+
+  &--blue {
+    background-color: $colorBlue;
+    &:hover {
+      background-color: $colorDarkBlue;
+    }
+  }
+
+  &--white {
+    background-color: $colorWhite;
+
+    &:hover {
+      background-color: $colorOffWhite;
+    }
+  }
+
+  &--yellow {
+    background-color: $colorYellow;
+
+    &:hover {
+      background-color: $colorDarkYellow;
+    }
+  }
+
+  &--dark {
+    background-color: $colorDarkGray;
+
+    &:hover {
+      background-color: $colorBlack;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+/* Calendar */
+.mobile-gcal {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-gcal {
+    display: block;
+  }
+
+  .desktop-gcal {
+    display: none;
+  }
+}
+
+.yoga-studios {
+  &__studio {
+    margin-top: $mp-sm;
+  }
+}

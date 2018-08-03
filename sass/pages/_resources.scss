@@ -1,0 +1,19 @@
+.resources {
+  &__border {
+    border: 2px solid $colorDarkBlue;
+    padding: 2rem;
+  }
+
+  &__list {
+    padding: 0;
+    list-style-type: none;
+
+    li:not(:first-child) {
+      margin-top: $mp-sm;
+    }
+
+    li p:not(:first-child) {
+      margin-top: 1rem;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.astroyoga {
+  background-image: url("../img/web_sized_images/stardust.png"),
+    linear-gradient(to right bottom, $colorLightBlue, $colorDarkBlue);
+  color: $colorOffWhite;
+  padding: $mp-med 0;
+  p {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  &__quote {
+    q {
+      font-style: italic;
+    }
+  }
+}

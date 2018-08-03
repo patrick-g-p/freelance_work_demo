@@ -1,0 +1,39 @@
+.about-me {
+  font-size: 2rem;
+
+  &__question {
+    font-weight: 700;
+    margin-top: 2rem;
+  }
+
+  &__answer {
+    margin-top: 1rem;
+  }
+  &__answer-list {
+    margin-top: 1rem;
+    padding: 0;
+
+    q {
+      font-style: italic;
+    }
+  }
+
+  &__signature {
+    margin-top: $mp-med;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-size: 5rem;
+
+    @media only screen and (max-width: 56.25em) {
+      flex-direction: column;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+}

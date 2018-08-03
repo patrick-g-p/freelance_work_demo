@@ -1,0 +1,93 @@
+.header {
+  height: 90vh;
+  background-color: $colorDarkBlue;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(#000, 0.6),
+      rgba(#000, 0.6)
+    ),
+    url("../img/web_sized_images/yoga_by_aj_banner_photo.jpg");
+  background-size: cover;
+  background-position: center 40%;
+  position: relative;
+
+  @media screen and (max-width: 35.938em) {
+    background-image: url("../img/web_sized_images/stardust.png") !important;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    text-align: center;
+
+    @media screen and (max-width: 50em) {
+      top: 50%;
+      right: auto;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &--emotional-wellness-academy {
+      top: 70%;
+      right: 10%;
+
+      @media screen and (max-width: 50em) {
+        top: 50%;
+        right: auto;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  &--classes-and--offerings {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(#000, 0.6),
+        rgba(#000, 0.6)
+      ),
+      url("../img/web_sized_images/yoga_by_aj_offerings_and_classes_photo.jpg");
+  }
+
+  &--about-aj {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(#000, 0.6),
+        rgba(#000, 0.6)
+      ),
+      url("../img/web_sized_images/yoga_by_aj_blog_photo.jpg");
+  }
+
+  &--emotional-wellness-academy {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(#000, 0.6),
+        rgba(#000, 0.6)
+      ),
+      url("../img/web_sized_images/yoga_by_aj_emotional_wellness_photo.jpg");
+  }
+
+  &--astroyoga {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(#000, 0.6),
+        rgba(#000, 0.6)
+      ),
+      url("../img/web_sized_images/yoga_by_aj_astroyoga_photo.jpg");
+  }
+
+  &--resources {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(#000, 0.6),
+        rgba(#000, 0.6)
+      ),
+      url("../img/web_sized_images/yoga_by_aj_resources_photo.jpg");
+  }
+}

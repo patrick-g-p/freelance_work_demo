@@ -1,0 +1,72 @@
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: $defaultFontSize;
+  color: $colorGray;
+  font-weight: 400;
+  line-height: 1.2;
+  text-rendering: optimizeLegibility;
+}
+
+.heading-main {
+  text-transform: uppercase;
+  color: $colorWhite;
+
+  &--title {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 2rem;
+
+    @media screen and (max-width: 50em) {
+      letter-spacing: 1.5rem;
+      font-size: 3rem;
+    }
+  }
+
+  &--subtitle {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.5rem;
+
+    @media screen and (max-width: 50em) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.default-heading {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: $mp-med;
+  color: $colorDarkBlue;
+
+  &--sm {
+    font-size: 2rem;
+    margin-bottom: $mp-sm;
+  }
+
+  &--white {
+    color: $colorWhite;
+  }
+}
+
+.offerings__heading,
+.classes-calendar__heading {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: $mp-med;
+  color: $colorDarkBlue;
+
+  &--white {
+    color: $colorWhite;
+  }
+}
+
+.blog-cta__heading {
+  font-size: 4rem;
+  font-family: "Playfair Display", sans-serif;
+  text-align: center;
+  margin-bottom: $mp-med;
+  color: $colorDarkBlue;
+}

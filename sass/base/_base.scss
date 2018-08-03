@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  // This defines what 1 rem is
+  font-size: 62.5%; // 1 rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background-color: $colorBlue;
+  color: $colorWhite;
+}
+::-webkit-selection {
+  background-color: $colorBlue;
+  color: $colorWhite;
+}
+::selection {
+  background-color: $colorBlue;
+  color: $colorWhite;
+}

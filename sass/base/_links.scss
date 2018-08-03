@@ -1,0 +1,33 @@
+a,
+a:link,
+a:visited {
+  color: $colorGray;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid $colorBlack;
+  -webkit-transition: border-bottom 0.2s, color 0.2s;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: $colorLightBlue;
+  border-bottom: 1px solid transparent;
+}
+
+.amzna-link,
+.amzna-link:link,
+.amzna-link:visited {
+  color: $colorGray;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid $colorBlack;
+  -webkit-transition: border-bottom 0.2s, color 0.2s;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+.amzna-link:hover,
+.amzna-link:visited {
+  color: $colorDarkYellow;
+  border-bottom: 1px solid transparent;
+}

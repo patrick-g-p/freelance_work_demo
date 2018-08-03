@@ -1,0 +1,99 @@
+// Testimonials
+.student-testimonials {
+  background-image: linear-gradient(
+    to right bottom,
+    $colorLightBlue,
+    $colorDarkBlue
+  );
+  padding: $mp-med 0;
+
+  @media only screen and (max-width: 56.25em) {
+    padding: $mp-sm 0;
+  }
+
+  & > div {
+    display: flex;
+
+    @media only screen and (max-width: 56.25em) {
+      flex-direction: column;
+    }
+  }
+
+  &__container {
+    background-color: rgba($colorWhite, 0.8);
+  }
+
+  &__img-container {
+    height: 18rem;
+
+    @media only screen and (max-width: 56.25em) {
+      height: 25rem;
+    }
+
+    & > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 38.5rem;
+    padding: 1rem;
+
+    & > small {
+      display: block;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.student-testimonials-text-only {
+  background-color: rgba($colorWhite, 0.8);
+  padding: 2rem;
+
+  & p:not(:last-child) {
+    margin-bottom: $mp-sm;
+  }
+
+  &__testimonial {
+    & > small {
+      display: block;
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
+// Blog Call To Action
+.blog-cta {
+  &__heading {
+  }
+
+  &__teaser {
+    font-size: 2.4rem;
+
+    & p:not(:last-child) {
+      margin-bottom: $mp-sm;
+    }
+
+    & p:last-child {
+      text-align: center;
+    }
+  }
+
+  &__recent-posts-header {
+    font-family: "Playfair Display", sans-serif;
+  }
+
+  &__recent-posts-list {
+    padding-left: 0;
+    li {
+      margin-top: 1rem;
+      line-height: 1.4;
+    }
+  }
+}

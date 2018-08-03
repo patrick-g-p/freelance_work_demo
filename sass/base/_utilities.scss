@@ -1,0 +1,30 @@
+.u-margin-top-lg {
+  margin-top: $mp-lg !important;
+}
+
+.u-margin-top-med {
+  margin-top: $mp-med !important;
+}
+
+.u-margin-top-sm {
+  margin-top: $mp-sm !important;
+}
+
+.u-blue-background {
+  background-image: linear-gradient(
+    to right bottom,
+    $colorLightBlue,
+    $colorDarkBlue
+  );
+  padding: 8rem 0;
+
+  h2 {
+    color: $colorWhite;
+  }
+}
+
+.u-hide-on-sm-device {
+  @media only screen and (max-width: 56.25em) {
+    display: none !important;
+  }
+}
